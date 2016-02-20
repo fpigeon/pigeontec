@@ -6,16 +6,27 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Pigeontec
+email: frank@pigeontec.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Pigeontec is a web design and web development business based in San Antonio, Texas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://pigeontec.com" # the base hostname & protocol for your site
+facebook_username: pigeontec
+twitter_username:  pigeon_tec
+linkedin_username: pigeontec
+
+permalink: /:categories/:title
+
+links:
+  -title: about
+  url: /about
+  -title: process
+  url: /process
+  -title: menu
+  url: /menu
+  -title: contact
+  url: /contact
 
 # Build settings
 markdown: kramdown
