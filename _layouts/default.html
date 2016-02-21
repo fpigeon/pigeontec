@@ -1,20 +1,69 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+{% include header.html %}
+<div class="header">
+    <h1 class="header-h1">PIGEONTEC</h1>
+    <h4 class="header-h4">bringing your dreams online</h4>
+</div>
+<div class="welcome">
+    <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+                <div class="owner">
+                    <div class="owner-bar">
+                        <h4 class="owner-title">Frank Pigeon-Owner</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mission">
+                    <h2 class="mission-title">Welcome to Pigeontec</h2>
+                    <p class="mission-p">
+                        We provide affordable, professional, dependable, web design and development.
+                    </p>
+                    <p class="mission-p">
+                        Pigeontec is a veteran owned, values-based small business. Our mission is to help individuals, businesses, non-profits, and churches grow and gain exposure by getting online.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
+</div><!-- end of welcome -->
 
-    {% include footer.html %}
-
-  </body>
-
-</html>
+<div class="process">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="process-box">
+                    <h4 class="process-box-step">Step One</h4>
+                    <h4 class="process-box-title">Identity</h4>
+                    <i class="fa">Light</i>
+                    <p class="process-box-descr">Identify your needs</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-box">
+                    <h4 class="process-box-step">Step Two</h4>
+                    <h4 class="process-box-title">Design</h4>
+                    <i class="fa">Light</i>
+                    <p class="process-box-descr">Design your website</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-box">
+                    <h4 class="process-box-step">Step Three</h4>
+                    <h4 class="process-box-title">Code</h4>
+                    <i class="fa">Light</i>
+                    <p class="process-box-descr">Write the code</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-box">
+                    <h4 class="process-box-step">Step Four</h4>
+                    <h4 class="process-box-title">Deploy</h4>
+                    <i class="fa">Light</i>
+                    <p class="process-box-descr">Deploy your site</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- end of process -->
+{% include footer.html %}
