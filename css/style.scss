@@ -37,6 +37,9 @@ body {
     position: relative;
     background-color: #FFF;
 }
+.pigeontec {
+    font-size: 20px !important;
+}
 .header {
     background-image: url('/images/header-bg.png');
     background-repeat: no-repeat;
@@ -115,9 +118,13 @@ body {
     .process-box {
         background-color: rgba(41, 166, 152, .7);
         color: white;
-        padding: 40px 48px;
+        padding: 40px 20px;
         min-width: 245px;
         height: 245px;
+        margin-bottom: 24px;
+        .fa {
+            font-size: 28px;
+        }
     }
 }
 
@@ -143,4 +150,13 @@ footer {
     font-size: 18px;
     font-weight: 300;
     min-height: 302px;
+    padding-top: 48px;
+    .footer-h4, .footer-h2 {
+        margin-top: 0;
+    }
+    .fa {
+        color: white;
+        font-size: 26px;
+        margin-right: 10px;
+    }
 }
