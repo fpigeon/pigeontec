@@ -1,4 +1,3 @@
-
     <div class="sub-footer">
         <div class="container">
             <div class="row">
@@ -8,7 +7,7 @@
             </div>
         </div>
     </div>
-    <footer >
+    <footer id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -22,17 +21,17 @@
                             San Antonio, TX 78261<br>
                     </address>
                     <tel>210-704-7443</tel><br>
-                    <a href="#" class="footer-link">frank@pigeontec.com</a>
+                    <a href="mailto:{{ site.data.global.admin_email }}" class="footer-link">frank@pigeontec.com</a>
                 </div>
                 <div class="col-md-4">
                     <h4 class="footer-h4">Connect</h4>
-                        <a href="#">
+                        <a href="{{ site.data.global.facebook_link }}">
                             <i class="fa fa-facebook-square" aria-hidden="true"></i>
                         </a>
-                        <a href="#">
+                        <a href="{{ site.data.global.linkedin_link }}">
                             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
-                        <a href="#">
+                        <a href="{{ site.data.global.twitter_link }}">
                             <i class="fa fa-twitter-square" aria-hidden="true"></i>
                         </a>
                 </div>

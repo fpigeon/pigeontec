@@ -1,5 +1,5 @@
 main:
-    - { url: '/process', text: 'Process' }
-    - { url: '/about', text: 'About' }
-    - { url: '/menu', text: 'Menu' }
-    - { url: '/contact', text: 'Contact' }
+    - { url: '#process', text: 'Process' }
+    - { url: '#about', text: 'About' }
+    - { url: '#menu', text: 'Menu' }
+    - { url: '#contact', text: 'Contact' }
