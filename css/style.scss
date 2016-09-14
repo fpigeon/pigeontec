@@ -26,6 +26,10 @@ $green-color: #bdf271;
     background: $purple-color;
     color: #fff;
 }
+a {
+	transition:0.3s;
+}
+
 body {
     color: #2c3e50;
     background-color: $purple-color;
@@ -115,6 +119,10 @@ body {
     color: white;
     padding: 160px 0 130px 0;
     margin-bottom: 96px;
+    .process-h2 {
+        margin-top: -96px;
+        margin-bottom: 48px;
+    }
     .process-box {
         background-color: rgba(41, 166, 152, .7);
         color: white;
@@ -158,5 +166,14 @@ footer {
         color: white;
         font-size: 26px;
         margin-right: 10px;
+        &:hover {
+            color: $light-blue-color;
+        }
+    }
+    .footer-link {
+        color: white;
+        &:hover {
+            color: $light-blue-color;
+        }
     }
 }
